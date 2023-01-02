@@ -7,7 +7,7 @@ export default function navbar() {
       <div className=" flex items-center justify-between relative container  py-4 px-2 mx-auto">
         <div className="font-bold text-xl">Shopify</div>
         <div className="relative cursor-pointer">
-          <BiShoppingBag className="text-3xl" />
+          <BiShoppingBag className="text-3xl opacity-80" />
           <div className="absolute w-4 h-4 z-10 right-[-3px] bottom-[-3px] rounded-full flex items-center justify-center text-[10px] bg-black text-white">
             0
           </div>
