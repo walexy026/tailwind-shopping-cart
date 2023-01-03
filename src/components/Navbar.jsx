@@ -24,10 +24,7 @@ export default function Navbar() {
         <Link to="/">
           <div className="font-bold text-xl">Shopify</div>
         </Link>
-
         <div
-          // className="relative cursor-pointer"
-
           className="relative cursor-pointer"
           onClick={() => dispatch(open())}
         >
