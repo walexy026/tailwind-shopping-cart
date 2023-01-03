@@ -10,7 +10,10 @@ export default function CheckOut() {
       <div className="h-full bg-sky-500 sm:w-[40rem] min-w-[15rem] overflow-y-auto">
         <div className="p-6">
           <div className="flex items-center justify-between">
-            <div className="flex itemss-center cursor-pointer">
+            <div
+              className="flex itemss-center cursor-pointer "
+              onClick={() => dispatch(open())}
+            >
               <BiDockRight />
               <span className="uppercase text-[0.5rem] select-none">
                 Continue Shopping
