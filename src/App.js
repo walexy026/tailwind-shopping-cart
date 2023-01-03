@@ -1,6 +1,6 @@
 import React from "react";
 // import { useSelector } from "react-redux";
-// import CheckOut from "./components/CheckOut";
+import CheckOut from "./components/CheckOut";
 import Navbar from "./components/Navbar";
 import ShoppingContainer from "./components/ShoppingContainer";
 
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Navbar />
       <ShoppingContainer />
-      {/* <CheckOut /> */}
+      <CheckOut />
       {/* {isOpen && <CheckOut />} */}
     </div>
   );
