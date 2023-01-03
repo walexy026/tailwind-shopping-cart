@@ -1,7 +1,10 @@
 import React from "react";
 import { BiDockRight } from "react-icons/bi";
+import { open } from "./State/Slice/CheckoutSlice";
+import useDispatch from "react-redux";
 
 export default function CheckOut() {
+  const dispatch = useDispatch();
   return (
     <div className=" bg-red-100/50 fixed z-30 top-0 left-0 w-full h-screen">
       <div className="h-full bg-sky-500 sm:w-[40rem] min-w-[15rem] overflow-y-auto">
