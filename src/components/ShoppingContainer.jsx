@@ -1,13 +1,13 @@
-import React from "react";
-import { items } from "../CartItems";
-import ShoppingItems from "./ShoppingItems";
+// import React from "react";
+// import { items } from "../CartItems";
+// import ShoppingItems from "./ShoppingItems";
 
-export default function ShoppingContainer() {
-  return (
-    <div className="section grid lg:grid-cols-3 md:grid-cols-2 gap-6 ">
-      {items.map((item) => {
-        return <ShoppingItems key={item.id} item={item} />;
-      })}
-    </div>
-  );
-}
+// export default function ShoppingContainer() {
+//   return (
+//     <div className="section grid lg:grid-cols-3 md:grid-cols-2 gap-6 ">
+//       {items.map((item) => {
+//         return <ShoppingItems key={item.id} item={item} />;
+//       })}
+//     </div>
+//   );
+// }
