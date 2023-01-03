@@ -1,5 +1,5 @@
 import React from "react";
-import { BiDockRight } from "react-icons/bi";
+import { BiChevronLeft } from "react-icons/bi";
 import { open } from "./State/Slice/CheckOutSlice";
 import { useDispatch } from "react-redux";
 
@@ -14,7 +14,7 @@ export default function CheckOut() {
               className="flex itemss-center cursor-pointer "
               onClick={() => dispatch(open())}
             >
-              <BiDockRight />
+              <BiChevronLeft />
               <span className="uppercase text-[0.5rem] select-none">
                 Continue Shopping
               </span>
