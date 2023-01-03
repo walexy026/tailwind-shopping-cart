@@ -4,7 +4,7 @@ const initialState = {
   isOpen: false,
 };
 
-const CheckoutSlice = createSlice({
+const CheckOutSlice = createSlice({
   name: "checkout",
   initialState,
   reducers: {
@@ -13,5 +13,5 @@ const CheckoutSlice = createSlice({
     },
   },
 });
-export const { open } = CheckoutSlice.actions;
-export default CheckoutSlice.reducer;
+export const { open } = CheckOutSlice.actions;
+export default CheckOutSlice.reducer;
