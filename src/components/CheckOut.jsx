@@ -1,7 +1,7 @@
 import React from "react";
 import { BiDockRight } from "react-icons/bi";
-import { open } from "./State/Slice/CheckoutSlice";
-import useDispatch from "react-redux";
+import { open } from "./State/Slice/CheckOutSlice";
+import { useDispatch } from "react-redux";
 
 export default function CheckOut() {
   const dispatch = useDispatch();
